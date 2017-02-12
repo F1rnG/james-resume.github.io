@@ -1,0 +1,229 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #EDF1F5 !important;
+	height: 2500px;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color: black;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3.5em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{
+	z-index:1000000; 
+	font-weight:bold; 
+	font-size:0.8em;
+	font-family: "Calibri"; 
+	width:100%; 
+	background:#FF3333;  
+	position:absolute; 
+	text-align:center;
+	margin-top: 0px;
+
+}
+.menu ul {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+}
+.menu li {
+	display: block;
+	padding:15px 0 15px 0;
+
+}
+.menu li:hover{
+	display: block;
+	background:#181818; 
+	padding:15px 0 15px 0; 
+
+}
+.menu ul li a { text-decoration:none;  
+	margin: 0px; 
+	color:#fff;
+}
+.menu ul li a:hover {  
+	color: #fff; 
+	text-decoration:none;
+}
+.menu a{
+	text-decoration:none; 
+	color:white;
+}
+.menu a:hover{
+	text-decoration:none; 
+	color:white;
+}
+header{
+	height: 60px;
+	width: 100%;
+	display: block;
+	background-color: white;
+}
+.redText{
+	color:#FF3333;
+
+}
+.digital-headline{
+	font-size: 40px;
+	font-family: "Calibri";
+	color: black;
+	padding-top:20px;
+	padding-bottom: 10px;
+
+}
+.container{
+	height: 610px;
+}
+.redLine{
+	display:block;
+	width: 25%;
+	height: 5px;
+	background-color: #FF3333;
+}
+.containerText{
+	padding-top: 40px;
+	font-family: "Calibri";
+	font-size: 20px;
+}
+.connect{
+	display: inline-block;
+	width:250px;
+	height: 80px;
+	background-color: #FF3333;
+	border-radius:10px;
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	border:none;
+	margin-top: 25px;
+}
+.download{
+	display: inline-block;
+	width:250px;
+	height: 80px;
+	background-color: #333333;
+	border-radius:10px;
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	border:none;
+	margin-top: 25px;
+}
+.glyphicon{
+
+
+	padding-top: 50px;
+	font-size: 40px;
+
+}
+.row{
+	text-align: center;
+}
+.buttons1{
+	text-align: center;
+}
+.containerheight{
+	height:750px;
+	background-color:white;
+}
+.workWith{
+	font-family: "Calibri";
+	color:black;
+	font-size: 25px;
+}
+.redLine2{
+	margin-top:50px;
+	margin-bottom: 20px;
+
+}
+.redText2{
+	font-size: 40px;
+}
+.passionate{
+	display:inline-block;
+	margin-top:30px;
+}
+.inspireHead{
+	font-family: "Calibri";
+	font-size: 25px;
+}
+.inspireText{
+	font-family: "Calibri";
+	font-size: 17px;
+}
+.redLineTop{
+	display:block;
+	width: 5px;
+	height: 60px;
+	background-color: #FF3333;
+	margin-left:12px;
+}
+.containerRed{
+	background-color: #FF3333;
+	height: 500px;
+}
+.expertise{
+	font-family: "Calibri";
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.whiteLine{
+	background-color: white;
+}
+.expertiseText{
+	font-family: "Calibri";
+	color: white;
+	font-size: 21px;
+	margin-left: 15px;
+	margin-top: 20px;
+	display:inline-block;
+	width: 150px;
+	float: left;
+}
+.expertiseText2{
+	margin-left:40px;
+}
+.certifications{
+	font-family: "Calibri";
+	font-size: 40px;
+	color: black;
+	margin-top:30px;
+}
+@media screen and (min-width: 768px) {
+.digital-headline{
+	font-size: 60px;
+}
+.hamburger{
+	font-size:5em;
+}
+.cross{
+	font-size: 4em;
+}
+}
